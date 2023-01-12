@@ -4,7 +4,6 @@ import Hero from "./Hero/Hero";
 import Skills from "./Skills/Skills";
 import Contact from "./Contact/Contact";
 import Projects from "./Projects/Projects";
-import Form from "./Form/Form";
 
 const Home = () => {
     return (
