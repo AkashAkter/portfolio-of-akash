@@ -27,10 +27,10 @@ const About = () => {
                 <h1>About Me</h1>
             </div>
             <div className="description">
-                <p>
-                    Front-end developer who cares deeply about user experience.{" "}
+                <p className="text-center">
+                    Full-stack developer who cares deeply about user experience.{" "}
                     <br />
-                    Serious passion for UI design and new technologies.
+                    Serious passion for learning new technologies and take new challenge.
                 </p>
             </div>
         </div>

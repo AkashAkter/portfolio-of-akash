@@ -11,7 +11,7 @@ const Contact = () => {
                     <h1 className="fas fa-envelope">
                         &nbsp; akash.akter08@gmail.com
                     </h1>
-                    <h1 className="fas fa-phone"> &nbsp;+880 1839277706</h1>
+                    <h1 className="fas fa-phone"> &nbsp;+880 1839 277706</h1>
                     <h1 className="fas fa-map-marker-alt">
                         {" "}
                         &nbsp;Bogura, Bangladesh
@@ -20,6 +20,7 @@ const Contact = () => {
             </div>
             <div className="logo ">
                 <a
+                    className="hover:text-[#171515]"
                     target="_blank"
                     href="https://github.com/AkashAkter"
                     rel="noreferrer"
@@ -27,6 +28,7 @@ const Contact = () => {
                     <i class="fab fa-github"></i>
                 </a>
                 <a
+                    className="hover:text-[#171515]"
                     target="_blank"
                     href="https://www.linkedin.com/in/akash08akter/"
                     rel="noreferrer"
@@ -34,6 +36,7 @@ const Contact = () => {
                     <i class="fab fa-linkedin-in"></i>
                 </a>
                 <a
+                    className="hover:text-[#171515]"
                     target="_blank"
                     href="https://www.facebook.com/akashh.akter"
                     rel="noreferrer"

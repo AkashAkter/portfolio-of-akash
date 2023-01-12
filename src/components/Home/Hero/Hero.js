@@ -9,7 +9,7 @@ const Hero = () => {
                 <h1>Md Akash Akter</h1>
             </div>
             <div className="designation">
-                <p>Jr. Frontend Developer</p>
+                <p>Junior Full-Stack Developer</p>
             </div>
             <div className="lg:space-x-5 space-x-0 flex justify-center items-center flex-col lg:flex-row space-y-5 lg:space-y-0">
                 <button className="neon__btn">
