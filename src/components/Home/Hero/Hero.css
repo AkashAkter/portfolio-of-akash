@@ -1,0 +1,28 @@
+@tailwind components;
+
+@layer components {
+    .home__container {
+        @apply space-y-6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: "Iceland";
+    }
+    .name {
+        @apply text-4xl lg:text-7xl;
+        text-shadow: 0px 0px 20px #00ffae;
+    }
+    .designation {
+        @apply text-2xl lg:text-3xl tracking-widest;
+        text-shadow: 0px 0px 30px #00ffae;
+    }
+    .block {
+        position: absolute;
+        width: 50px;
+        height: 100px;
+        background: #235d46;
+        box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.5);
+    }
+}
